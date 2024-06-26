@@ -3,3 +3,5 @@ if status is-interactive
 end
 
 starship init fish | source
+
+set -g fish_greeting
