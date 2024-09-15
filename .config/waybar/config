@@ -13,6 +13,7 @@
         "tray",
 	"cpu",
         "memory",
+	"disk",
         "pulseaudio",
     ],
     "wlr/taskbar": {
@@ -48,6 +49,10 @@
     "memory": {
         "interval": 2,
         "format": "{}% ",
+    },
+    "disk": {
+        "interval": 60,
+        "format": "{percentage_free}% "
     },
     "tray": {
         "spacing": 10
